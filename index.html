@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    
     <!--Header1-->
 <header class= "header-border">
     <div class="container page-header-container">
@@ -30,6 +31,28 @@
         <li> <a class="link menu-item" href="#" >Contacts</a></li>  
    </ul>
     </nav>
+
+    
+    <button
+    class="menu-toggle js-open-menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
+    <svg
+      width="24"
+      height="24"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        clip-rule="evenodd"
+      ></path>
+    </svg>
+  </button>
+
     
 
 
@@ -44,16 +67,23 @@
 
 
 <main>
+
+
     <!--Section1-->
 
   <section class="hero-image overlay-hero ">
     
-     <div class="container hero-section "><h1 class="hero-text"> Effective Solutions<br>for Your Business</h1>
+     <div class="container hero-section ">
+    
+        <h1 class="hero-text"> Effective Solutions<br>for Your Business</h1>
    
       <button data-modal-open class="modal-button button"  type="button">Order Service</button></div>
    
 
   </section>
+
+
+  
 
 <!--Section2-->
 
@@ -113,37 +143,49 @@
 
 
 
-<!--Section3-->
+<!-- Section3-->
 
-    <section class="section container"> 
+    <!-- <section class="section3 section container"> 
             <h2 class ="section3-title">What are we doing</h2>
             <ul class="section3-items list">
-                <li><img class="section3-pictures" src="./images/rectangle.jpg" alt="computer" width="360">
+                <li>
+                    <img 
+                    class="section3-pictures" src="./images/rectangle.jpg" alt="computer" width="360">
                 </li>
-                <li><img class="section3-pictures" src="./images/phone.jpg" alt="phone" width="360">
+                <li>
+                    <img class="section3-pictures" src="./images/phone.jpg" alt="phone" width="360">
                 </li>
-                <li><img class="section3-pictures" src="./images/phone2.jpg" alt="phone" width="360">
+                <li>
+                    <img class="section3-pictures" src="./images/phone2.jpg" alt="phone" width="360">
                 </li>
 
         </ul>
-    </section>
+    </section> -->
 
 
 <!--Team description-->
 
-    <section class="section-team section">
+     <section class="section-team section">
         <div class="container">
           <h2 class="team-header">Our Team</h2>
 
           <ul class="member-items list">
 
 
+
+
             <li class="member-card">
-                
-            <img class="member-photo" src="./images/team1.jpg" alt="teammember" width="264">
+                <picture>
+                    <img class="member-photo" src="./images/team1.jpg" alt="teammember" width="264">
+                    <source media="(min-width: 480px)" srcset="team1-mobile.jpg", scrset="team1-mobile2x.jpg">
+                    <source media="(min-width: 768px)" srcset="team1-tablet.jpg", srcset="team1-tablet2x.jpg">
+                    <source media="(min-width: 1200px)" srcset="team1.jpg", srcset="team1-2x-desctop">
+                    
+                  </picture>
             
             <div class="membercard-content-wrapper"><h3 class="member-title">Mark Guerrero</h3>
             <p class="member-description">Product Designer</p>
+
 
             <ul class="member-socialmedia-list">
 
@@ -187,8 +229,14 @@
 
         
             <li class="member-card">
+                <picture>
+                    <img class="member-photo" src="./images/team2.jpg" alt="teammember" width="264">
+                    <source media="(min-width: 480px)" srcset="team2-mobile.jpg", scrset="team2-mobile2x.jpg">
+                    <source media="(min-width: 768px)" srcset="team2-tablet.jpg", srcset="team2-tablet2x.jpg">
+                    <source media="(min-width: 1200px)" srcset="team2.jpg", srcset="team2-2x-desctop">
+                  </picture>
                 
-             <img class="member-photo" src="./images/team2.jpg" alt="teammember" width="264">
+    
                 
              <div class="membercard-content-wrapper"><h3 class="member-title">Tom Ford</h3>
             <p class="member-description">Frontend Developer</p>
@@ -235,7 +283,12 @@
 
         
             <li class="member-card">
-                <img class="member-photo" src="./images/team3.jpg" alt="teammember" width="264">
+                <picture>
+                    <img class="member-photo" src="./images/team3.jpg" alt="teammember" width="264">
+                    <source media="(min-width: 480px)" srcset="team3-mobile.jpg", scrset="team3-mobile2x.jpg">
+                    <source media="(min-width: 768px)" srcset="team3-tablet.jpg", srcset="team3-tablet2x.jpg">
+                    <source media="(min-width: 1200px)" srcset="team3.jpg", srcset="team3-2x-desctop">
+                  </picture>
                 
                 <div class="membercard-content-wrapper"><h3 class="member-title">Camila Garcia</h3>
                 <p class="member-description">Marketing</p>
@@ -284,7 +337,12 @@
 
 
             <li class="member-card">
-              <img class="member-photo" src="./images/team4.jpg" alt="teammember" width="264">
+                <picture>
+                    <img class="member-photo" src="./images/team4.jpg" alt="teammember" width="264">
+                    <source media="(min-width: 480px)" srcset="team4-mobile.jpg", scrset="team4-mobile2x.jpg">
+                    <source media="(min-width: 768px)" srcset="team4-tablet.jpg", srcset="team4-tablet2x.jpg">
+                    <source media="(min-width: 1200px)" srcset="team4.jpg", srcset="team4-2x-desctop">
+                  </picture>
               
               <div class="membercard-content-wrapper"><h3 class="member-title">Daniel Wilson</h3>
               <p class="member-description">UI Designer</p>
@@ -331,11 +389,13 @@
 
         </ul>
     </div>
-    </section>
+    </section> 
 
 
 
     <!--Customers-->
+
+
 <section class="section customers-section container">
     <h2 class="customers-header">Customers</h2>
     <ul class="customers-list-container">
@@ -404,10 +464,11 @@
 </section>
 
       
-</main>
+</main> 
 
  <!--Footer-->
- <footer class="footer">
+ <!-- <footer class="footer">
+    
 
     <div class="container footer-container">
     <div class="logo-footer">
@@ -463,12 +524,12 @@
             </li>
 
         </ul>
-        </div>
+        </div> 
 
 
         <!-- Forms -->
 
-        <div class="contact-form-container">
+        <!-- <div class="contact-form-container">
 
           
 
@@ -504,13 +565,13 @@
             
 
         
-        </div>
+        </div> -->
 
     </div>
 
     
-</footer>
-
+</footer> -->
+ 
 
 
 
@@ -519,6 +580,7 @@
 <!-- modal-window -->
 
 <div class="backdrop is-hidden" data-modal>
+
     <div class="modal-window" >
         <button data-modal-close  type="button" class="modal-close-button" >
             <svg class="modal-close-icon"> 
@@ -536,7 +598,7 @@
 
             <div class="modal-form-input-wrapper">
             <input type="text" name="user_name" class="modal-form-input"  pattern="^{a-zA-а-яА-Я}+$"
-             minlength="3" autocomplete="off" required placeholder="" >
+            placeholder="" minlength="3" autocomplete="off" required >
            
             <svg class="modal-form-icon" >
                 <use href="./images/icons-optimized.svg#icon-black-human" width="12px" height="12px"></use>
@@ -556,7 +618,7 @@
 
                 <div class="modal-form-input-wrapper">
                 <input type="tel" name="user_phone_number" class="modal-form-input" title="xxx-xxx-xx-xx" 
-                 minlength="3" autocomplete="off" required placeholder="">
+                placeholder="" minlength="3" autocomplete="off" required>
                
                 <svg class="modal-form-icon" >
                     <use href="./images/icons-optimized.svg#icon-modal-window-phone" width="13px" height="13px"></use>
@@ -609,7 +671,90 @@
 
 
 </div>
-<script src="./js/modal.js"></script>
+
+<!-- Mobile-menu -->
+
+ <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="#2E2F42"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <div>
+        <li><a href="" class="link">Studio</a></li>
+        <li><a href="" class="link">Portfolio</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+        </div>
+
+
+        <div class="contacts-mobile-menu">
+            
+        <li><a href="" class="contacts-items">+11 (000) 111-11-11</a></li>
+        <li><a href="" class="contacts-items">info@devstudio.com</a></li>
+           
+        
+            <ul class="socialmedia-list-mobile">
+
+                <li class="socialmedia-items-mobile">
+                    <a href class="mobile-menu-links-socials">
+                    <svg width="24px" height="24px">
+                        <use href="./images/icons-optimized.svg#icon-instagram2"></use>
+                    </svg>
+                </a>
+                </li>
+                
+                <li class="socialmedia-items-mobile">
+                    <a href class="mobile-menu-links-socials">
+                    <svg  width="24px" height="24px">
+                        <use href="./images/icons-optimized.svg#icon-twitter1"></use>
+                    </svg>
+                </a>
+                </li>
+
+                <li class="socialmedia-items-mobile">
+                    <a href class="mobile-menu-links-socials">
+                    <svg width="24px" height="24px">
+                        <use href="./images/icons-optimized.svg#icon-facebook1"></use>
+                    </svg>
+                </a>
+                </li>
+
+                <li class="socialmedia-items-mobile">
+                    <a href class="mobile-menu-links-socials">
+                    <svg  width="24px" height="24px">
+                        <use href="./images/icons-optimized.svg#icon-linkedin1"></use>
+                    </svg>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+      </ul>
+
+
+    </div>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+
+  <script  src="./js/mobile-menu.js"></script>
+  <script  src="./js/modal.js"></script>
+
+
 
 </body>
-</html>
+</html> 

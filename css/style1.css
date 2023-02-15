@@ -710,47 +710,11 @@ transition-timing-function: (var(--animation-timing-function));}
 }
 
     
-
-
-
-@media screen and (max-width: 768px) {
-
-    .section-team {
-      width: 768px;
-      height: 1232px;}
-
-    .team-header{ 
-    
-    margin: 0 auto;
-    padding-bottom: 72px;
-    }
-    
-    
-    
-    .member-items {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 24px;
-        
-
-}
-
-.member-card {
-    margin-bottom: 64px;
-    
-}
-
-}
-
-
 @media screen and (max-width: 480px) {
 
     .section-team {
-      width: 480px;
+      width: 428px;
       height: 2264px;
-      margin: 0;
     }
 
     .team-header{ 
@@ -758,7 +722,6 @@ transition-timing-function: (var(--animation-timing-function));}
     margin: 0 auto;
     padding-bottom: 72px;
     }
-    
     
     
     
@@ -767,11 +730,12 @@ transition-timing-function: (var(--animation-timing-function));}
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        column-gap: 72px;
+        gap: 72px;
     }
 
     
 }
+
 
 
 /*Customers section*/
@@ -854,31 +818,6 @@ gap: 24px;
    
 }
 
-
-
-@media screen and (max-width: 768px) {
-   
-    .customers-header {
-        margin: 0 auto;
-    }
-
-    .customers-list-container {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-       row-gap: 73px;
-       column-gap: 24px;
-        
-
-    }
-
-    .customer-link {
-        size: 190px 88px;
-    }
-
-   
-}
 
 /*Footer*/
 
@@ -1090,7 +1029,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     
     .contact-form {
        display: flex;
@@ -1102,7 +1041,7 @@ color: rgba(255, 255, 255, 0.6);
     }
 
     
-} */
+}
 
 
 
@@ -1542,24 +1481,6 @@ letter-spacing: 0.04em;
 color: rgba(117, 117, 117, 0.5);
 
 }
-
-
-
-@media screen and (min-width: 480px) {
-
-    .modal-window {
-  
-        width: 392px;
-        height: 586px;
-        }
-
-    }
-
-
-
-
-
-
 
 /* Modal Form Check */
 
