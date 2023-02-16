@@ -422,6 +422,13 @@ margin-right: auto;
         height: 432px;
     }
 
+    .overlay-hero {
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-mobile@2x.jpg);
+        max-width: 428px;
+        background-size: cover;
+    }
+
 
     .hero-section {
         padding-top: 112px;
@@ -438,24 +445,25 @@ margin-right: auto;
        
     }
 
-    .overlay-hero {
-        background-image: url(../images/people-office-mobile.jpg)
-        linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-        background-size:  428px 432px;
-        background-size: cover;
-        
-    }
+  
 
 
 
 }
 
 @media screen and (min-width:481px) and (max-width:768px ) {
+
+
     .hero-image {
         width: 768px;
         height: 436px;
     }
 
+    .overlay-hero {
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-tablet.jpg),
+        url(../images/people-office-tablet@2x.jpg);
+        max-width: 768px;}
 
     .hero-section {
         padding-top: 112px;
@@ -1025,6 +1033,9 @@ transition-timing-function: (var(--animation-timing-function));}
     
 }
 
+
+
+
 @media screen and (max-width: 480px) {
     
     .footer-container {
@@ -1037,6 +1048,14 @@ transition-timing-function: (var(--animation-timing-function));}
         align-items: center;
     }
 
+    .footer-logotype {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
     .social-media-block-footer {
         margin: 0 auto;
         justify-content: center;
@@ -1053,11 +1072,7 @@ transition-timing-function: (var(--animation-timing-function));}
         justify-content: center;
     }
 
-    .logo-text1-footer .logo-text2-footer {
-        justify-content: center;
-        align-items: center;
-    }
-
+    
    
 }
 
@@ -1066,19 +1081,22 @@ transition-timing-function: (var(--animation-timing-function));}
 @media screen and (min-width: 481px) and (max-width: 768px) {
     
     .footer-container {
-        width: 428px;
-        height: 662px;
+        width: 768px;
+        height: 454px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin: 0 auto;
-        justify-content: center;
-        align-items: center;
+        align-self: flex-end;
+        margin-left: 105px;
+        flex-wrap: wrap;
+    }
+
+    .footer-logotype {
+       
     }
 
     .social-media-block-footer {
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
+       margin-left: 40px;
     }
 
     .socials-icon-links {
@@ -1086,17 +1104,9 @@ transition-timing-function: (var(--animation-timing-function));}
     }
 
     .social-media-header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .logo-text1-footer .logo-text2-footer {
-        justify-content: center;
-        align-items: center;
-    }
-
    
+}
+
 }
 
 /* Forms */
@@ -1188,8 +1198,30 @@ color: rgba(255, 255, 255, 0.6);
        justify-content: center;
        align-items: center;
        gap: 16px;
-       margin: 0 auto;
+       margin-right: 15px;
+       
     }
+
+    .contact-form-input {
+        width: 398px;
+        display: inline-block;
+        
+    }
+
+
+    .contact-form-container h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+     }
+
+     .contact-form-container {
+        margin: 0 auto;
+        margin-bottom: 96px;
+     }
+ 
 
     
 } 
@@ -1198,14 +1230,34 @@ color: rgba(255, 255, 255, 0.6);
 @media screen and (min-width: 481px) and (max-width: 768px) {
     
     .contact-form {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       gap: 16px;
-       margin: 0 auto;
-    }
-
+        display: flex;
+        flex-direction: row;
+       
+     
+        
+        
+     }
+ 
+     .contact-form-input {
+         width: 264px;
+         display: flex;
+        
+         
+     }
+ 
+ 
+     .contact-form-container h3 {
+         display: flex;
+        
+        
+         
+         
+      }
+ 
+      .contact-form-container {
+         margin-left: 0;
+         margin-bottom: 96px;
+      }
     
 } 
 
