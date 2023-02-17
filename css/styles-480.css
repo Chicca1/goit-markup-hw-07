@@ -712,7 +712,11 @@ margin-right: auto;
     .social-list-link:hover,
     .social-list-link:focus {
       background-color: #404BBF;
-    } 
+    }
+    
+    
+
+
 
     /*Customers section*/
 
@@ -725,6 +729,14 @@ margin-right: auto;
     text-align: center;   
     /* margin-bottom: 72px; */
     }
+
+@media screen and (min-width: 768px){
+    
+    .customers-header {
+        margin: 0 auto;
+    }
+    
+}
     
     .customer-link {
     display: flex;
@@ -747,7 +759,15 @@ margin-right: auto;
     .customer-link:focus  {
     border-color: var(--colour-change);
     
+    }
+
+
     
+    @media screen and (min-width: 768px) {
+
+        .customer-link {
+            size: 190px 88px;
+        }
     }
     
     .icon-customers {
@@ -773,6 +793,19 @@ margin-right: auto;
     margin-top: 72px;
     padding: 0px;
     gap: 16px;
+    }
+
+    @media screen and (min-width: 768px) {
+        .customers-list-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+           row-gap: 73px;
+           column-gap: 24px;
+            
+    
+        }
     }
     
 
