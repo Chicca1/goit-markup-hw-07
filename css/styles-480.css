@@ -762,7 +762,7 @@ margin-right: auto;
     }
 
 
-    
+
     @media screen and (min-width: 768px) {
 
         .customer-link {
@@ -824,6 +824,20 @@ margin-right: auto;
     /* align-items: baseline; 1200*/
     }
 
+    @media screen and (min-width: 768px) {
+        .footer-container {
+            width: 768px;
+            height: 454px;
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            align-self: baseline;
+            margin-left: 105px;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+    }
+
     .footer-logotype {
         display: flex;
         justify-content: center;
@@ -879,6 +893,13 @@ margin-right: auto;
     /* margin-left: 120px; */
 
     }
+
+    @media screen and (min-width: 768px) {
+
+        .social-media-block-footer {
+            margin-left: 40px;
+         }
+    }
     
     .social-media-header{
     display: flex;
@@ -927,6 +948,13 @@ margin-right: auto;
         
     }
 
+    @media screen and (min-width: 768px){
+        .socials-icon-links {
+            margin-bottom: 72px;
+        }
+    
+    }
+
 
     /* Forms */
 
@@ -939,11 +967,26 @@ margin-right: auto;
     margin-right: 15px;
 }
 
+@media screen and (min-width: 768px) {
+    .contact-form {
+        display: flex;
+        flex-direction: row;
+     
+     }
+}
+
 .contact-form-container {
     margin: 0 auto;
     margin-bottom: 96px;
 
 /* margin-left: 80px; */
+}
+
+@media screen and (min-width : 768px) {
+    .contact-form-container {
+        margin-left: 0;
+        margin-bottom: 96px;
+     }
 }
 
 
@@ -977,8 +1020,6 @@ padding: 0;
         
     /* display: flex; */
     /* width: 264px; */
-
-
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -992,6 +1033,16 @@ padding: 0;
     transition-property: border-color;
     transition-duration: var(--animation-duration);
     transition-timing-function: var(--animation-timing-function);
+
+}
+
+@media screen and (min-width: 768px)  {
+    .contact-form-input {
+        width: 264px;
+        display: flex;
+       
+        
+    }
 
 }
 
@@ -1011,8 +1062,14 @@ padding: 0;
     font-size: 16px;
     margin-bottom: 16px;
     
-   
-   
+}
+
+@media screen and (min-width: 768px) {
+    .contact-form-container h3 {
+        display: flex;
+        justify-content: flex-start;
+        
+     }
 }
 
 input::placeholder {
