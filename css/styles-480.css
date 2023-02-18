@@ -1588,7 +1588,7 @@ margin-bottom: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-  background-color: transparent;
+    background-color: transparent;
     margin: 0;
     padding: 0;
    
@@ -1631,6 +1631,7 @@ margin-bottom: 24px;
   }
   
   .mobile-menu {
+  
     padding: 0;
     margin: 0;
     list-style: none;
@@ -1639,6 +1640,7 @@ margin-bottom: 24px;
     line-height: 40px;
     padding-bottom: 40px;
     padding-top: 40px;
+
   }
 
   .mobile-menu .link:hover,
@@ -1654,10 +1656,17 @@ margin-bottom: 24px;
     text-decoration: none;
   }
 
-  .contacts-mobile-menu {
-    margin-top: 284px;
-    margin-bottom: 48px;
-  
+ 
+
+ 
+  .mobile-menu-items {
+    margin-bottom: 350px;
+    
+  }
+
+  .mobile-menu-items a {
+   margin: 40px;
+    
   }
 
   .mobile-menu-links-socials {
@@ -1668,14 +1677,14 @@ margin-bottom: 24px;
     display: flex;
     width: 40px;
     height: 40px;
-    gap: 56px;
+   
   }
 
  
 
   .socialmedia-list-mobile {
     display: flex;
-    gap: 56px;
+    gap: 46px;
     margin-top: 48px;
     margin-bottom: 40px;
   }
@@ -1687,7 +1696,7 @@ margin-bottom: 24px;
   .contacts-items {
     color: #434455;
     text-decoration: none;
-    padding-bottom: 40px;
+  
     font-weight: 500;
      font-size: 20px;
     line-height: 1.2;
