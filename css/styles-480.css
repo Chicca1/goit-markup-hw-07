@@ -75,7 +75,7 @@ line-height: 1.5;
 
 .container {
 /* phone */
-outline: hotpink 1px solid;
+/* outline: hotpink 1px solid; */
 min-width: 320px;
 max-width: 428px;
 padding-left: 16px;
@@ -1016,7 +1016,7 @@ margin-right: auto;
     @media screen and (min-width: 1200px) {
         
         .footer {
-            max-width: 1440px;
+            max-width: 1988px;
             }
  }
     
